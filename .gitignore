@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project data and model artifacts
+data/raw/
+data/processed/*.csv
+models/*.pkl
+models/*.json
+models/hf_cache/
+# models/plots/*.png — tracked in git
